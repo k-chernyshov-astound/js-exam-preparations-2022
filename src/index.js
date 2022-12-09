@@ -1,0 +1,21 @@
+let a = 1;
+let b = a;
+let c = { q: 1 };
+let d = c;
+d.q = 5;
+b = 15;
+let e = [1];
+let f = e;
+f[0] = 10;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(e);
+// ------------
+let g = { a: 1 };
+let g1 = { a: 1 };
+let h = g;
+console.log(h == g);
+console.log(h === g);
+console.log(g === g1);
+console.log(g == g1);
